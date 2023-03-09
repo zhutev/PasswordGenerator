@@ -10,8 +10,8 @@ public class PasswordGenerator {
         System.out.println("Generating password using random() : ");
         System.out.print("Your new password is : ");
 
-        // A strong password has Cap_chars, Lower_chars,
-        // numeric value and symbols. So we are using all of
+        // A strong password has Capital letters, lower-case letters,
+        // numeric value/s and symbols. So we are using all of
         // them to generate our password
         String capitalChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String smallChars = "abcdefghijklmnopqrstuvwxyz";
